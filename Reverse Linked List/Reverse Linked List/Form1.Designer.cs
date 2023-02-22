@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -48,7 +47,7 @@
             this.Node4Lbl = new System.Windows.Forms.Label();
             this.Node5Lbl = new System.Windows.Forms.Label();
             this.NullLbl = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lblOutput = new System.Windows.Forms.Label();
             this.HeadTxtbx = new System.Windows.Forms.TextBox();
             this.Node1Txtbx = new System.Windows.Forms.TextBox();
             this.Node2Txtbx = new System.Windows.Forms.TextBox();
@@ -75,7 +74,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.Location = new System.Drawing.Point(286, 36);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(590, 58);
@@ -85,7 +84,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.Location = new System.Drawing.Point(41, 440);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(189, 46);
@@ -95,27 +94,26 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Arial Rounded MT Bold", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.Location = new System.Drawing.Point(251, 40);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(590, 58);
+            this.label4.Size = new System.Drawing.Size(461, 46);
             this.label4.TabIndex = 0;
             this.label4.Text = "REVERSE LINKED LIST";
             // 
             // OutputTitle
             // 
             this.OutputTitle.AutoSize = true;
-            this.OutputTitle.Font = new System.Drawing.Font("Arial Rounded MT Bold", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.OutputTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.OutputTitle.Location = new System.Drawing.Point(31, 483);
             this.OutputTitle.Name = "OutputTitle";
-            this.OutputTitle.Size = new System.Drawing.Size(196, 43);
+            this.OutputTitle.Size = new System.Drawing.Size(153, 36);
             this.OutputTitle.TabIndex = 1;
             this.OutputTitle.Text = "OUTPUT: ";
-            this.OutputTitle.Click += new System.EventHandler(this.label5_Click);
             // 
             // ReverseBtn
             // 
-            this.ReverseBtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ReverseBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.ReverseBtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ReverseBtn.Location = new System.Drawing.Point(453, 396);
             this.ReverseBtn.Name = "ReverseBtn";
@@ -123,6 +121,7 @@
             this.ReverseBtn.TabIndex = 2;
             this.ReverseBtn.Text = "Reverse";
             this.ReverseBtn.UseVisualStyleBackColor = true;
+            this.ReverseBtn.Click += new System.EventHandler(this.ReverseBtn_Click);
             // 
             // pictureBox1
             // 
@@ -176,7 +175,7 @@
             // 
             // pictureBox6
             // 
-            this.pictureBox6.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox6.ErrorImage")));
+            this.pictureBox6.ErrorImage = null;
             this.pictureBox6.Image = global::Reverse_Linked_List.Properties.Resources.dark_slate_blue__3_;
             this.pictureBox6.Location = new System.Drawing.Point(78, 176);
             this.pictureBox6.Name = "pictureBox6";
@@ -188,82 +187,81 @@
             // HeadLbl
             // 
             this.HeadLbl.AutoSize = true;
-            this.HeadLbl.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.HeadLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.HeadLbl.Location = new System.Drawing.Point(123, 311);
             this.HeadLbl.Name = "HeadLbl";
-            this.HeadLbl.Size = new System.Drawing.Size(51, 17);
+            this.HeadLbl.Size = new System.Drawing.Size(40, 15);
             this.HeadLbl.TabIndex = 9;
             this.HeadLbl.Text = "HEAD";
             // 
             // Node1Lbl
             // 
             this.Node1Lbl.AutoSize = true;
-            this.Node1Lbl.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Node1Lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Node1Lbl.Location = new System.Drawing.Point(278, 311);
             this.Node1Lbl.Name = "Node1Lbl";
-            this.Node1Lbl.Size = new System.Drawing.Size(59, 17);
+            this.Node1Lbl.Size = new System.Drawing.Size(47, 15);
             this.Node1Lbl.TabIndex = 10;
             this.Node1Lbl.Text = "Node 1";
             // 
             // Node2Lbl
             // 
             this.Node2Lbl.AutoSize = true;
-            this.Node2Lbl.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Node2Lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Node2Lbl.Location = new System.Drawing.Point(429, 311);
             this.Node2Lbl.Name = "Node2Lbl";
-            this.Node2Lbl.Size = new System.Drawing.Size(59, 17);
+            this.Node2Lbl.Size = new System.Drawing.Size(47, 15);
             this.Node2Lbl.TabIndex = 11;
             this.Node2Lbl.Text = "Node 2";
             // 
             // Node3Lbl
             // 
             this.Node3Lbl.AutoSize = true;
-            this.Node3Lbl.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Node3Lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Node3Lbl.Location = new System.Drawing.Point(583, 311);
             this.Node3Lbl.Name = "Node3Lbl";
-            this.Node3Lbl.Size = new System.Drawing.Size(59, 17);
+            this.Node3Lbl.Size = new System.Drawing.Size(47, 15);
             this.Node3Lbl.TabIndex = 12;
             this.Node3Lbl.Text = "Node 3";
             // 
             // Node4Lbl
             // 
             this.Node4Lbl.AutoSize = true;
-            this.Node4Lbl.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Node4Lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Node4Lbl.Location = new System.Drawing.Point(742, 311);
             this.Node4Lbl.Name = "Node4Lbl";
-            this.Node4Lbl.Size = new System.Drawing.Size(59, 17);
+            this.Node4Lbl.Size = new System.Drawing.Size(47, 15);
             this.Node4Lbl.TabIndex = 13;
             this.Node4Lbl.Text = "Node 4";
             // 
             // Node5Lbl
             // 
             this.Node5Lbl.AutoSize = true;
-            this.Node5Lbl.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Node5Lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Node5Lbl.Location = new System.Drawing.Point(895, 311);
             this.Node5Lbl.Name = "Node5Lbl";
-            this.Node5Lbl.Size = new System.Drawing.Size(59, 17);
+            this.Node5Lbl.Size = new System.Drawing.Size(47, 15);
             this.Node5Lbl.TabIndex = 14;
             this.Node5Lbl.Text = "Node 5";
             // 
             // NullLbl
             // 
             this.NullLbl.AutoSize = true;
-            this.NullLbl.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.NullLbl.Location = new System.Drawing.Point(1008, 235);
+            this.NullLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.NullLbl.Location = new System.Drawing.Point(1029, 234);
             this.NullLbl.Name = "NullLbl";
-            this.NullLbl.Size = new System.Drawing.Size(48, 17);
+            this.NullLbl.Size = new System.Drawing.Size(39, 15);
             this.NullLbl.TabIndex = 15;
             this.NullLbl.Text = "NULL";
             // 
-            // label5
+            // lblOutput
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(233, 490);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(71, 34);
-            this.label5.TabIndex = 16;
-            this.label5.Text = "text";
+            this.lblOutput.AutoSize = true;
+            this.lblOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblOutput.Location = new System.Drawing.Point(233, 489);
+            this.lblOutput.Name = "lblOutput";
+            this.lblOutput.Size = new System.Drawing.Size(0, 29);
+            this.lblOutput.TabIndex = 16;
             // 
             // HeadTxtbx
             // 
@@ -341,7 +339,7 @@
             this.Controls.Add(this.Node2Txtbx);
             this.Controls.Add(this.Node1Txtbx);
             this.Controls.Add(this.HeadTxtbx);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.lblOutput);
             this.Controls.Add(this.NullLbl);
             this.Controls.Add(this.Node5Lbl);
             this.Controls.Add(this.Node4Lbl);
@@ -358,6 +356,8 @@
             this.Controls.Add(this.ReverseBtn);
             this.Controls.Add(this.OutputTitle);
             this.Controls.Add(this.label4);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "Reverse Linked List";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -392,7 +392,7 @@
         private Label Node4Lbl;
         private Label Node5Lbl;
         private Label NullLbl;
-        private Label label5;
+        private Label lblOutput;
         private TextBox HeadTxtbx;
         private TextBox Node1Txtbx;
         private TextBox Node2Txtbx;

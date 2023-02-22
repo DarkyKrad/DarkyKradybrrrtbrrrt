@@ -1,0 +1,18 @@
+A:\Documents\GitHub\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\bin\Debug\net6.0-windows\Reverse Linked List.exe
+A:\Documents\GitHub\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\bin\Debug\net6.0-windows\Reverse Linked List.deps.json
+A:\Documents\GitHub\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\bin\Debug\net6.0-windows\Reverse Linked List.runtimeconfig.json
+A:\Documents\GitHub\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\bin\Debug\net6.0-windows\Reverse Linked List.dll
+A:\Documents\GitHub\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\bin\Debug\net6.0-windows\Reverse Linked List.pdb
+A:\Documents\GitHub\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\obj\Debug\net6.0-windows\Reverse Linked List.csproj.AssemblyReference.cache
+A:\Documents\GitHub\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\obj\Debug\net6.0-windows\Reverse_Linked_List.Form1.resources
+A:\Documents\GitHub\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\obj\Debug\net6.0-windows\Reverse_Linked_List.Properties.Resources.resources
+A:\Documents\GitHub\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\obj\Debug\net6.0-windows\Reverse Linked List.csproj.GenerateResource.cache
+A:\Documents\GitHub\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\obj\Debug\net6.0-windows\Reverse Linked List.GeneratedMSBuildEditorConfig.editorconfig
+A:\Documents\GitHub\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\obj\Debug\net6.0-windows\Reverse Linked List.AssemblyInfoInputs.cache
+A:\Documents\GitHub\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\obj\Debug\net6.0-windows\Reverse Linked List.AssemblyInfo.cs
+A:\Documents\GitHub\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\obj\Debug\net6.0-windows\Reverse Linked List.csproj.CoreCompileInputs.cache
+A:\Documents\GitHub\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\obj\Debug\net6.0-windows\Reverse Linked List.dll
+A:\Documents\GitHub\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\obj\Debug\net6.0-windows\refint\Reverse Linked List.dll
+A:\Documents\GitHub\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\obj\Debug\net6.0-windows\Reverse Linked List.pdb
+A:\Documents\GitHub\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\obj\Debug\net6.0-windows\Reverse Linked List.genruntimeconfig.cache
+A:\Documents\GitHub\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\obj\Debug\net6.0-windows\ref\Reverse Linked List.dll
