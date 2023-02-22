@@ -97,7 +97,7 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.Location = new System.Drawing.Point(251, 40);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(461, 46);
+            this.label4.Size = new System.Drawing.Size(574, 58);
             this.label4.TabIndex = 0;
             this.label4.Text = "REVERSE LINKED LIST";
             // 
@@ -107,7 +107,7 @@
             this.OutputTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.OutputTitle.Location = new System.Drawing.Point(31, 483);
             this.OutputTitle.Name = "OutputTitle";
-            this.OutputTitle.Size = new System.Drawing.Size(153, 36);
+            this.OutputTitle.Size = new System.Drawing.Size(192, 42);
             this.OutputTitle.TabIndex = 1;
             this.OutputTitle.Text = "OUTPUT: ";
             // 
@@ -190,7 +190,7 @@
             this.HeadLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.HeadLbl.Location = new System.Drawing.Point(123, 311);
             this.HeadLbl.Name = "HeadLbl";
-            this.HeadLbl.Size = new System.Drawing.Size(40, 15);
+            this.HeadLbl.Size = new System.Drawing.Size(49, 18);
             this.HeadLbl.TabIndex = 9;
             this.HeadLbl.Text = "HEAD";
             // 
@@ -200,7 +200,7 @@
             this.Node1Lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Node1Lbl.Location = new System.Drawing.Point(278, 311);
             this.Node1Lbl.Name = "Node1Lbl";
-            this.Node1Lbl.Size = new System.Drawing.Size(47, 15);
+            this.Node1Lbl.Size = new System.Drawing.Size(56, 18);
             this.Node1Lbl.TabIndex = 10;
             this.Node1Lbl.Text = "Node 1";
             // 
@@ -210,7 +210,7 @@
             this.Node2Lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Node2Lbl.Location = new System.Drawing.Point(429, 311);
             this.Node2Lbl.Name = "Node2Lbl";
-            this.Node2Lbl.Size = new System.Drawing.Size(47, 15);
+            this.Node2Lbl.Size = new System.Drawing.Size(56, 18);
             this.Node2Lbl.TabIndex = 11;
             this.Node2Lbl.Text = "Node 2";
             // 
@@ -220,7 +220,7 @@
             this.Node3Lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Node3Lbl.Location = new System.Drawing.Point(583, 311);
             this.Node3Lbl.Name = "Node3Lbl";
-            this.Node3Lbl.Size = new System.Drawing.Size(47, 15);
+            this.Node3Lbl.Size = new System.Drawing.Size(56, 18);
             this.Node3Lbl.TabIndex = 12;
             this.Node3Lbl.Text = "Node 3";
             // 
@@ -230,7 +230,7 @@
             this.Node4Lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Node4Lbl.Location = new System.Drawing.Point(742, 311);
             this.Node4Lbl.Name = "Node4Lbl";
-            this.Node4Lbl.Size = new System.Drawing.Size(47, 15);
+            this.Node4Lbl.Size = new System.Drawing.Size(56, 18);
             this.Node4Lbl.TabIndex = 13;
             this.Node4Lbl.Text = "Node 4";
             // 
@@ -240,7 +240,7 @@
             this.Node5Lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Node5Lbl.Location = new System.Drawing.Point(895, 311);
             this.Node5Lbl.Name = "Node5Lbl";
-            this.Node5Lbl.Size = new System.Drawing.Size(47, 15);
+            this.Node5Lbl.Size = new System.Drawing.Size(56, 18);
             this.Node5Lbl.TabIndex = 14;
             this.Node5Lbl.Text = "Node 5";
             // 
@@ -250,7 +250,7 @@
             this.NullLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.NullLbl.Location = new System.Drawing.Point(1029, 234);
             this.NullLbl.Name = "NullLbl";
-            this.NullLbl.Size = new System.Drawing.Size(39, 15);
+            this.NullLbl.Size = new System.Drawing.Size(46, 18);
             this.NullLbl.TabIndex = 15;
             this.NullLbl.Text = "NULL";
             // 
@@ -260,13 +260,14 @@
             this.lblOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lblOutput.Location = new System.Drawing.Point(233, 489);
             this.lblOutput.Name = "lblOutput";
-            this.lblOutput.Size = new System.Drawing.Size(0, 29);
+            this.lblOutput.Size = new System.Drawing.Size(0, 36);
             this.lblOutput.TabIndex = 16;
             // 
             // HeadTxtbx
             // 
             this.HeadTxtbx.BackColor = System.Drawing.Color.PowderBlue;
             this.HeadTxtbx.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.HeadTxtbx.Font = new System.Drawing.Font("Segoe UI", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.HeadTxtbx.Location = new System.Drawing.Point(98, 195);
             this.HeadTxtbx.Multiline = true;
             this.HeadTxtbx.Name = "HeadTxtbx";
@@ -278,6 +279,7 @@
             // 
             this.Node1Txtbx.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.Node1Txtbx.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Node1Txtbx.Font = new System.Drawing.Font("Segoe UI", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Node1Txtbx.Location = new System.Drawing.Point(254, 195);
             this.Node1Txtbx.Multiline = true;
             this.Node1Txtbx.Name = "Node1Txtbx";
@@ -289,6 +291,7 @@
             // 
             this.Node2Txtbx.BackColor = System.Drawing.Color.LightPink;
             this.Node2Txtbx.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Node2Txtbx.Font = new System.Drawing.Font("Segoe UI", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Node2Txtbx.Location = new System.Drawing.Point(409, 195);
             this.Node2Txtbx.Multiline = true;
             this.Node2Txtbx.Name = "Node2Txtbx";
@@ -300,6 +303,7 @@
             // 
             this.Node3Txtbx.BackColor = System.Drawing.Color.Thistle;
             this.Node3Txtbx.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Node3Txtbx.Font = new System.Drawing.Font("Segoe UI", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Node3Txtbx.Location = new System.Drawing.Point(564, 195);
             this.Node3Txtbx.Multiline = true;
             this.Node3Txtbx.Name = "Node3Txtbx";
@@ -311,6 +315,7 @@
             // 
             this.Node4Txtbx.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.Node4Txtbx.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Node4Txtbx.Font = new System.Drawing.Font("Segoe UI", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Node4Txtbx.Location = new System.Drawing.Point(718, 195);
             this.Node4Txtbx.Multiline = true;
             this.Node4Txtbx.Name = "Node4Txtbx";
@@ -322,6 +327,7 @@
             // 
             this.Node5Txtbx.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.Node5Txtbx.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.Node5Txtbx.Font = new System.Drawing.Font("Segoe UI", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Node5Txtbx.Location = new System.Drawing.Point(873, 195);
             this.Node5Txtbx.Multiline = true;
             this.Node5Txtbx.Name = "Node5Txtbx";

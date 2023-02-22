@@ -8,23 +8,23 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Xayori\\.nuget\\packages\\": {}
+    "C:\\Users\\Joyce Calangian\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "A:\\Documents\\GitHub\\DarkyKradybrrrtbrrrt\\Reverse Linked List\\Reverse Linked List\\Reverse Linked List.csproj",
+      "projectUniqueName": "C:\\Users\\Joyce Calangian\\Desktop\\DarkyKradybrrrtbrrrt\\Reverse Linked List\\Reverse Linked List\\Reverse Linked List.csproj",
       "projectName": "Reverse Linked List",
-      "projectPath": "A:\\Documents\\GitHub\\DarkyKradybrrrtbrrrt\\Reverse Linked List\\Reverse Linked List\\Reverse Linked List.csproj",
-      "packagesPath": "C:\\Users\\Xayori\\.nuget\\packages\\",
-      "outputPath": "A:\\Documents\\GitHub\\DarkyKradybrrrtbrrrt\\Reverse Linked List\\Reverse Linked List\\obj\\",
+      "projectPath": "C:\\Users\\Joyce Calangian\\Desktop\\DarkyKradybrrrtbrrrt\\Reverse Linked List\\Reverse Linked List\\Reverse Linked List.csproj",
+      "packagesPath": "C:\\Users\\Joyce Calangian\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Joyce Calangian\\Desktop\\DarkyKradybrrrtbrrrt\\Reverse Linked List\\Reverse Linked List\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Xayori\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Joyce Calangian\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0-windows"
+        "net6.0-windows7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -51,8 +51,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -64,7 +63,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

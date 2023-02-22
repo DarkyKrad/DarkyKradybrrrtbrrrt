@@ -16,3 +16,21 @@ A:\Documents\GitHub\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List
 A:\Documents\GitHub\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\obj\Debug\net6.0-windows\Reverse Linked List.pdb
 A:\Documents\GitHub\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\obj\Debug\net6.0-windows\Reverse Linked List.genruntimeconfig.cache
 A:\Documents\GitHub\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\obj\Debug\net6.0-windows\ref\Reverse Linked List.dll
+C:\Users\Joyce Calangian\Desktop\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\bin\Debug\net6.0-windows\Reverse Linked List.exe
+C:\Users\Joyce Calangian\Desktop\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\bin\Debug\net6.0-windows\Reverse Linked List.deps.json
+C:\Users\Joyce Calangian\Desktop\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\bin\Debug\net6.0-windows\Reverse Linked List.runtimeconfig.json
+C:\Users\Joyce Calangian\Desktop\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\bin\Debug\net6.0-windows\Reverse Linked List.dll
+C:\Users\Joyce Calangian\Desktop\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\bin\Debug\net6.0-windows\Reverse Linked List.pdb
+C:\Users\Joyce Calangian\Desktop\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\obj\Debug\net6.0-windows\Reverse Linked List.csproj.AssemblyReference.cache
+C:\Users\Joyce Calangian\Desktop\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\obj\Debug\net6.0-windows\Reverse_Linked_List.Form1.resources
+C:\Users\Joyce Calangian\Desktop\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\obj\Debug\net6.0-windows\Reverse_Linked_List.Properties.Resources.resources
+C:\Users\Joyce Calangian\Desktop\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\obj\Debug\net6.0-windows\Reverse Linked List.csproj.GenerateResource.cache
+C:\Users\Joyce Calangian\Desktop\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\obj\Debug\net6.0-windows\Reverse Linked List.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Joyce Calangian\Desktop\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\obj\Debug\net6.0-windows\Reverse Linked List.AssemblyInfoInputs.cache
+C:\Users\Joyce Calangian\Desktop\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\obj\Debug\net6.0-windows\Reverse Linked List.AssemblyInfo.cs
+C:\Users\Joyce Calangian\Desktop\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\obj\Debug\net6.0-windows\Reverse Linked List.csproj.CoreCompileInputs.cache
+C:\Users\Joyce Calangian\Desktop\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\obj\Debug\net6.0-windows\Reverse Linked List.dll
+C:\Users\Joyce Calangian\Desktop\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\obj\Debug\net6.0-windows\refint\Reverse Linked List.dll
+C:\Users\Joyce Calangian\Desktop\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\obj\Debug\net6.0-windows\Reverse Linked List.pdb
+C:\Users\Joyce Calangian\Desktop\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\obj\Debug\net6.0-windows\Reverse Linked List.genruntimeconfig.cache
+C:\Users\Joyce Calangian\Desktop\DarkyKradybrrrtbrrrt\Reverse Linked List\Reverse Linked List\obj\Debug\net6.0-windows\ref\Reverse Linked List.dll
